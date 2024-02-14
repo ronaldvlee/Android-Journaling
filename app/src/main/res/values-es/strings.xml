@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">proyecto-final-equipo_02_6</string>
+    <string name="travel_journal">Diario de Viaje</string>
+    <string name="title">Título</string>
+    <string name="description">Descripción</string>
+    <string name="date">Fecha</string>
+    <string name="save">Guardar</string>
+    <string name="settings">Configuración</string>
+    <string name="back">Atrás</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="language">Idioma</string>
+    <string name="select_font_prompt">Seleccionar fuente</string>
+
+    <string name="mail">Correo</string>
+    <string name="restfultitle">Ejemplo de API RESTful</string>
+    <string name="sendpostrequest">Envoyer une demande POST</string>
+    <string name="entry_date">Fecha de Entrada</string>
+    <string name="entry_title">Título de Entrada</string>
+
+    <string name="add_entry">Agregar entrada</string>
+
+    <string name="login">Iniciar sesión</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="password">Contraseña</string>
+</resources>

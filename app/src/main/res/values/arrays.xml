@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <array name="music_options">
+        <item>Acoustic Breeze</item>
+        <item>Dreams</item>
+        <item>Hip Jazz</item>
+        <item>Piano Moment</item>
+        <!-- Add more music options as needed -->
+    </array>
+
+    <array name="font_options">
+        <item>Oswald</item>
+        <item>Roboto</item>
+        <item>Silkscreen</item>
+    </array>
+</resources>

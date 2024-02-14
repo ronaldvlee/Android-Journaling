@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="activities.SettingsActivity">
+
+  <TextView
+      android:id="@+id/textViewFontLabel"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="52dp"
+      android:text="Font"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/languageSpinner" />
+
+  <ImageButton
+      android:id="@+id/buttonBack"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:background="?attr/selectableItemBackgroundBorderless"
+      android:src="@drawable/ic_back"
+      android:scaleType="fitCenter"
+      android:contentDescription="@string/back"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="16dp" />
+
+  <TextView
+      android:id="@+id/textViewLanguageLabel"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/language"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/buttonBack"
+      android:layout_marginTop="16dp"
+      android:layout_marginStart="16dp"/>
+
+  <Spinner
+      android:id="@+id/languageSpinner"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      app:layout_constraintTop_toBottomOf="@+id/buttonBack"
+      app:layout_constraintStart_toEndOf="@+id/textViewLanguageLabel"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      android:layout_marginStart="8dp"
+      android:layout_marginEnd="16dp"
+      android:layout_marginTop="16dp" />
+
+  <TextView
+      android:id="@+id/textViewBGMLabel"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="BGM"
+      app:layout_constraintTop_toBottomOf="@+id/textViewLanguageLabel"
+      app:layout_constraintStart_toStartOf="parent"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="20dp" />
+
+  <Spinner
+      android:id="@+id/musicSpinner"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="40dp"
+      android:layout_marginTop="16dp"
+      android:layout_marginEnd="16dp"
+      android:entries="@array/music_options"
+      android:prompt="@string/select_music_prompt"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toEndOf="@+id/textViewBGMLabel"
+      app:layout_constraintTop_toBottomOf="@+id/languageSpinner" />
+
+  <Spinner
+      android:id="@+id/fontSpinner"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="42dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="16dp"
+      android:entries="@array/font_options"
+      android:prompt="@string/select_font_prompt"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toEndOf="@+id/textViewFontLabel"
+      app:layout_constraintTop_toBottomOf="@+id/musicSpinner" />
+
+  <Button
+      android:id="@+id/editUpdateBtn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="96dp"
+      android:text="@string/save"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/languageSpinner" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

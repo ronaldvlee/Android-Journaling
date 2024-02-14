@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/editEntryView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editEntryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton"
+        android:layout_marginTop="8dp"
+        android:hint="@string/title" />
+
+    <EditText
+        android:id="@+id/editEntryDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editEntryTitle"
+        android:layout_marginTop="8dp"
+        android:hint="@string/description" />
+
+    <Button
+        android:id="@+id/editUpdateBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editEntryDesc"
+        android:layout_marginTop="16dp"
+        android:text="Update Entry" />
+
+    <Button
+        android:id="@+id/editDelBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editUpdateBtn"
+        android:layout_marginTop="8dp"
+        android:text="Delete Entry" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/ic_back" />
+</RelativeLayout>

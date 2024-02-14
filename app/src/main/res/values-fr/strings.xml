@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">projet-final-équipe_02_6</string>
+    <string name="travel_journal">Journal de Voyage</string>
+    <string name="title">Titre</string>
+    <string name="description">Description</string>
+    <string name="date">Date</string>
+    <string name="save">Enregistrer</string>
+    <string name="settings">Paramètres</string>
+    <string name="back">Retour</string>
+    <string name="edit">Éditer</string>
+    <string name="delete">Supprimer</string>
+    <string name="language">Langue</string>
+    <string name="select_font_prompt">Sélectionnez la police</string>
+
+    <string name="mail">Mail</string>
+    <string name="restfultitle">Exemple d\'API RESTful</string>
+    <string name="sendpostrequest">Enviar solicitud POST</string>
+    <string name="entry_date">Date de l\'Entrée</string>
+    <string name="entry_title">Titre de l\'Entrée</string>
+
+    <string name="add_entry">Ajouter une entrée</string>
+
+    <string name="login">Connexion</string>
+    <string name="username">Nom d\'utilisateur</string>
+    <string name="password">Mot de passe</string>
+</resources>
